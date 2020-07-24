@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RadioButtonActivity"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="81dp">
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:id="@+id/radio_group">
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:background="@drawable/radiobutton_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:checked="true"
+        android:tag="1"
+        android:text="Kish" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radiobutton_background"
+        android:layout_gravity="left"
+        android:tag="2"
+
+        android:text="Tehran" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:tag="3"
+        android:padding="5dp"
+android:background="@drawable/radiobutton_background"
+        android:text="mashhad" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="left"
+        android:tag="4"
+android:background="@drawable/radiobutton_background"
+        android:text="kermanshah" />
+
+    <Button
+        android:id="@+id/bt_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Display" />
+</RadioGroup>
+
+</LinearLayout>

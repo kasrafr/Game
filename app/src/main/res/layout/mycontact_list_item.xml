@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/mycontact_pimg"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="2dp"
+        android:scaleType="fitXY"
+         />
+
+    <TextView
+        android:id="@+id/mycontact_name"
+        android:layout_toRightOf="@id/mycontact_pimg"
+        android:layout_toEndOf="@id/mycontact_pimg"
+        android:layout_alignTop="@id/mycontact_pimg"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kasra" />
+    <TextView
+        android:id="@+id/mycontact_phone"
+        android:layout_alignLeft="@id/mycontact_name"
+        android:layout_below="@id/mycontact_name"
+        android:layout_marginTop="10dp"
+        android:textColor="#494949"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="09383959599" />
+
+    <ImageView
+        android:id="@+id/mycontact_ic_call"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/mycontact_pimg"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="39dp"
+        app:srcCompat="@drawable/icon_call"
+        android:layout_marginRight="10dp"
+         />
+    <ImageView
+        android:id="@+id/mycontact_ic_sms"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/mycontact_ic_call"
+        android:layout_toLeftOf="@id/mycontact_ic_call"        android:layout_marginTop="39dp"
+        app:srcCompat="@drawable/icon_sms"
+        android:layout_marginRight="20dp"
+        />
+</RelativeLayout>

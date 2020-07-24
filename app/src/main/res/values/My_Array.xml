@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Tour_items">
+        <item>Tehran</item>
+        <item>Esfehan</item>
+        <item>Shiraz</item>
+        <item>yazd</item>
+        <item>kermanshah</item>
+        <item>ferdos</item>
+    </string-array>
+    <integer-array name="country_flag">
+        <item>@drawable/flag_cn</item>
+        <item>@drawable/flag_cz</item>
+        <item>@drawable/flag_de</item>
+        <item>@drawable/flag_dk</item>
+        <item>@drawable/flag_es</item>
+        <item>@drawable/flag_fr</item>
+        <item>@drawable/flag_ir</item>
+        <item>@drawable/flag_jp</item>
+        <item>@drawable/flag_kr</item>
+        <item>@drawable/flag_pt</item>
+        <item>@drawable/flag_pl</item>
+        <item>@drawable/flag_tr</item>
+    </integer-array>
+    <string-array name="country_name">
+        <item>china</item>
+        <item>czech</item>
+        <item>germany</item>
+        <item>danmark</item>
+        <item>spin</item>
+        <item>france</item>
+        <item>iran</item>
+        <item>italy</item>
+        <item>japan</item>
+        <item>korea</item>
+        <item>portugal</item>
+        <item>poland</item>
+        <item>turkey</item>
+    </string-array>
+</resources>
